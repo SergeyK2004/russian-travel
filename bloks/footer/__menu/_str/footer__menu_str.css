@@ -1,0 +1,8 @@
+.footer__menu_str{
+padding-right: 18px;
+}
+
+.footer__menu_str:last-child{
+  padding-right: 0;
+
+}

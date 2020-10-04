@@ -1,0 +1,6 @@
+.footer__menu{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+padding-inline-start: 0;
+}
