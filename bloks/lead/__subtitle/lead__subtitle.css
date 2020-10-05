@@ -10,7 +10,7 @@ text-align: center;
 
 color: #FFFFFF;
 max-width: 640px;
-margin-block-start: 32;
-margin-block-end: 32;
+margin-block-start: 32px;
+margin-block-end: 64px;
 
 }

@@ -3,6 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 148px;
-
+  padding: 64px 0 64px;
+  width: 984px;
 }
