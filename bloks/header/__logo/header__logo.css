@@ -1,0 +1,6 @@
+.header__logo{
+  width: calc(176px - (768px - min(100vw,768px)) * (34 / 488));
+  height: calc(52px - (768px - min(100vw,768px)) * (10 / 488));
+  object-fit: cover;
+}
+

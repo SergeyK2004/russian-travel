@@ -2,9 +2,9 @@
   font-family: Inter;
 font-style: normal;
 font-weight: 900;
-font-size: 96px;
-line-height: 100px;
 /* or 104% */
+font-size: calc(96px - (768px - min(100vw,768px)) * (56 / 448));
+line-height: calc(100px - (768px - min(100vw,768px)) * (56 / 448));
 
 text-align: center;
 

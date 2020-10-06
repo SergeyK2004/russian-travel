@@ -1,6 +1,5 @@
 .cover{
   margin: 28px 0 28px;
-  /* min-height: 740px; */
   background-image: url("../../images/overlay.png");
   position: relative;
   display: flex;
@@ -9,4 +8,5 @@ align-items: center;
 flex-direction: column;
 width: min(100%, 1184px);
 height: calc(min(1184px,100vw)*(740/1184));
+  background-size: cover;
 }

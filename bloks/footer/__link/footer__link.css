@@ -2,9 +2,8 @@
   font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: calc(16px - (850px - min(100vw,850px)) * (3 / 256));
+line-height: calc(18px - (850px - min(100vw,850px)) * (4 / 256));
 
 
 color: #FFFFFF;
@@ -13,4 +12,12 @@ text-decoration-style: none;
 
 .footer__link:hover{
   opacity: 0.8;
+}
+
+@media (max-width: 512px){
+  .footer__link{
+     font-size: 24px;
+line-height: 24px;
+ 
+  }
 }

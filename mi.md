@@ -1,7 +1,0 @@
-@font-face {
-    src: url('https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff2') format('woff2'),
-         url('https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff') format('woff'),
-         url('https://pictures.s3.yandex.net/fonts/Ibmplexserif.ttf') format('truetype');
-    font-family: 'IBM Plex Serif';
-    font-weight: normal;
-}

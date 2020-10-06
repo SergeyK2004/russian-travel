@@ -4,5 +4,16 @@
   justify-content: center;
   align-items: center;
   padding: 64px 0 64px;
-  width: 984px;
+    max-width: calc(984px - (1280px - min(100vw,1280px)) * (56 / 256));
+
+}
+
+@media (max-width: 1024px){
+  .places{
+   width: calc(928px - (1024px - min(100vw,1024px)) * (208 / 256));  
+  }
+}@media (max-width: 768px){
+  .places{
+   width: calc(100% - 24px);
+  }
 }

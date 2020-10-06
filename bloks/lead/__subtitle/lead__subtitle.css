@@ -2,15 +2,12 @@
   font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 36px;
-/* or 120% */
-
+font-size: calc(30px - (768px - min(100vw,768px)) * (14 / 448));
+line-height: calc(36px - (768px - min(100vw,768px)) * (16 / 448));
+max-width: calc(640px - (768px - min(100vw,768px)) * (352 / 448));
 text-align: center;
-
 color: #FFFFFF;
-max-width: 640px;
 margin-block-start: 32px;
 margin-block-end: 64px;
-
 }
+

@@ -5,8 +5,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 22px;
-/* or 122% */
-
+font-size: calc(18px - (768px - min(100vw,768px)) * (4 / 448));
+line-height: calc(22px - (768px - min(100vw,768px)) * (6 / 448));
 text-align: center;
 
 color: #FFFFFF;

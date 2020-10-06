@@ -2,13 +2,14 @@
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 28px;
 text-align: right;
 text-decoration-line: none;
 color: #ffffff;
 margin-bottom: 16px;
 padding-right: 18px;
+font-size: calc(24px - (768px - min(100vw,768px)) * (6 / 448));
+line-height: calc(28px - (768px - min(100vw,768px)) * (8 / 448));
+
 }
 .header__lang-link:last-child{
   padding-right: 0;

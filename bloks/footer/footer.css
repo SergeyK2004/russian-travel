@@ -6,3 +6,17 @@
   margin: 64px 48px 24px;
   max-height: 18px;
 }
+
+@media (max-width: 768px){
+  .footer{
+    margin: 64px 12px 24px;
+  }
+}
+@media (max-width: 512px){
+  .footer{
+   flex-direction: column;
+   max-height: 310px;
+     align-items: flex-start;
+
+ }
+}
