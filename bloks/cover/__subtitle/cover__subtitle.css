@@ -3,13 +3,9 @@
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 22px;
 font-size: calc(18px - (768px - min(100vw,768px)) * (4 / 448));
 line-height: calc(22px - (768px - min(100vw,768px)) * (6 / 448));
 text-align: center;
-
-color: #FFFFFF;
 max-width: 360px;
 margin-block-end: 0;
 margin-block-start: 32px;
