@@ -1,14 +1,13 @@
-.footer__menu-str{
-padding-right: 18px;
+.footer__menu-str {
+  padding-right: 18px;
 }
 
-.footer__menu-str:last-child{
+.footer__menu-str:last-child {
   padding-right: 0;
 }
 
-@media (max-width: 680px){
-  .footer__menu-str{
-padding-bottom: 32px;
-}
-
+@media (max-width: 680px) {
+  .footer__menu-str {
+    padding-bottom: 32px;
+  }
 }
