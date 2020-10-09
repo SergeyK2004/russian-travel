@@ -1,17 +1,22 @@
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   padding: 64px 0 64px;
   /* max-width: 984px; */
-  width: calc(984px - (1280px - min(100vw,1280px)) * (56 / 256));
-
+  width: calc(984px - (1280px - min(100vw, 1280px)) * (56 / 256));
 }
-@media (max-width: 1024px){
-  .intro{
-   width: calc(928px - (1024px - min(100vw,1024px)) * (208 / 256));  
+@media (max-width: 1024px) {
+  .intro {
+    width: calc(928px - (1024px - min(100vw, 1024px)) * (208 / 256));
   }
-}@media (max-width: 768px){
-  .intro{
-   width: calc(720px - (768px - min(100vw,768px)) * (432 / 448));  
+}
+@media (max-width: 768px) {
+  .intro {
+    width: calc(720px - (768px - min(100vw, 768px)) * (432 / 448));
+  }
+}
+@media (max-width: 512px) {
+  .intro {
+    width: calc(100% - 32px);
   }
 }
