@@ -1,13 +1,9 @@
 .intro__title{
-  font-family: Inter;
-font-style: normal;
-font-weight: 900;
-/* identical to box height, or 107% */
-font-size: calc(54px - (768px - min(100vw,768px)) * (22 / 448));
-line-height: calc(58px - (768px - min(100vw,768px)) * (23 / 448));
-
-
-color: #FFFFFF;
-margin-block-start: 0;
-margin-block-end: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(54px - (768px - min(100vw,768px)) * (22 / 448));
+  line-height: calc(58px - (768px - min(100vw,768px)) * (23 / 448));
+  color: #FFFFFF;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

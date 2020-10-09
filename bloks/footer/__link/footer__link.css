@@ -1,23 +1,20 @@
 .footer__link{
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: calc(16px - (850px - min(100vw,850px)) * (3 / 256));
-line-height: calc(18px - (850px - min(100vw,850px)) * (4 / 256));
-
-
-color: #FFFFFF;
-text-decoration-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(16px - (768px - min(100vw,768px)) * (3 / 256));
+  line-height: calc(18px - (768px - min(100vw,768px)) * (4 / 256));
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer__link:hover{
   opacity: 0.8;
 }
 
-@media (max-width: 512px){
+@media (max-width: 680px){
   .footer__link{
-     font-size: 24px;
-line-height: 24px;
+    font-size: 24px;
+    line-height: 24px;
  
   }
 }

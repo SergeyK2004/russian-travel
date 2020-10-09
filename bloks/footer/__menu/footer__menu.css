@@ -8,7 +8,7 @@ margin-block-end: 0;
 
 }
 
-@media (max-width: 512px){
+@media (max-width: 680px){
 .footer__menu{
   flex-direction: column;
 }

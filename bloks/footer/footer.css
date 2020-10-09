@@ -9,14 +9,14 @@
 
 @media (max-width: 768px){
   .footer{
-    margin: 64px 12px 24px;
+    margin: 60px 24px 24px;
   }
 }
-@media (max-width: 512px){
+@media (max-width: 680px){
   .footer{
    flex-direction: column;
    max-height: 310px;
      align-items: flex-start;
-
+margin: 36px 12px 24px;
  }
 }

@@ -12,8 +12,16 @@
   .places{
    width: calc(928px - (1024px - min(100vw,1024px)) * (208 / 256));  
   }
-}@media (max-width: 768px){
+}
+@media (max-width: 768px){
   .places{
-   width: calc(100% - 24px);
+   width: calc(100% - 48px);
+  }
+}
+@media (max-width: 700px){
+  .places{
+   width: 100%;
+     padding: 64px 0 0;
+
   }
 }

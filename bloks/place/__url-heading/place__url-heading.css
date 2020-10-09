@@ -1,12 +1,11 @@
 .place__url-heading{
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 12px;
-/* identical to box height, or 100% */
-
-letter-spacing: 0.2em;
-
-color: #aaaaaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  margin-block-start: 0;
+  margin-block-end: 12px;
+  text-transform: uppercase;
 }

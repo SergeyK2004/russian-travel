@@ -1,15 +1,11 @@
 .lead__title{
-  font-family: Inter;
-font-style: normal;
-font-weight: 900;
-/* or 104% */
-font-size: calc(96px - (768px - min(100vw,768px)) * (56 / 448));
-line-height: calc(100px - (768px - min(100vw,768px)) * (56 / 448));
-
-text-align: center;
-
-color: #FFFFFF;
-max-width: 720px;
-margin-block-start: 0;
-margin-block-end: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(96px - (768px - min(100vw,768px)) * (56 / 448));
+  line-height: calc(100px - (768px - min(100vw,768px)) * (56 / 448));
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 720px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

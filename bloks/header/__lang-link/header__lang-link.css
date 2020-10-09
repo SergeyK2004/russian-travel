@@ -1,16 +1,19 @@
 .header__lang-link{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-text-align: right;
-text-decoration-line: none;
-color: #ffffff;
-margin-bottom: 16px;
-padding-right: 18px;
-font-size: calc(24px - (768px - min(100vw,768px)) * (6 / 448));
-line-height: calc(28px - (768px - min(100vw,768px)) * (8 / 448));
-
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  text-decoration-line: none;
+  color: #ffffff;
+  margin-bottom: 16px;
+  padding-right: 18px;
+  font-size: calc(24px - (768px - min(100vw,768px)) * (6 / 448));
+  line-height: calc(28px - (768px - min(100vw,768px)) * (8 / 448));
 }
+
 .header__lang-link:last-child{
   padding-right: 0;
+}
+
+.header__lang-link:hover{
+  opacity: 0.8;
 }

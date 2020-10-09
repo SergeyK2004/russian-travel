@@ -1,6 +1,5 @@
 .cover__subtitle{
   position: relative;
-font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: calc(18px - (768px - min(100vw,768px)) * (4 / 448));

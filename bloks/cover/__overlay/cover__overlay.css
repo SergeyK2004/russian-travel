@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  color: #ffffff;
 }
 .cover__overlay:hover{
   background: rgba(42,44,47,0.8);

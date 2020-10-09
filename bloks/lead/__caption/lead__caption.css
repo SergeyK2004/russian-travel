@@ -1,26 +1,21 @@
 .lead__caption{
   align-self: start;
   margin-block-start: 8px;
-margin-block-end: 0;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height, or 140% */
-
-letter-spacing: 0.15em;
-text-transform: uppercase;
-
-color: #FFFFFF;
---marg: calc((976px - (min(976px, 100vw))) / 2); /* При достижении ширины видимой области 976px и продолжении уменьшения должен появиться отступ, но не больше чем 24px */
-margin-left: clamp(0px, var(--marg), 24px);
+  margin-block-end: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  --marg: calc((976px - (min(976px, 100vw))) / 2); /* При достижении ширины видимой области 976px и продолжении уменьшения должен появиться отступ, но не больше чем 24px */
+  margin-left: clamp(0px, var(--marg), 24px);
 }
 
 @media (max-width: 512px){
   .lead__caption{
   --marg: calc(24px - ((512px - (min(512px, 100vw))) / 4)); /* При достижении ширины 512px начинаем уменьшать отступ до 12px */
-margin-left: clamp(12px, var(--marg), 24px);
-  
+  margin-left: clamp(12px, var(--marg), 24px);
   }
 }

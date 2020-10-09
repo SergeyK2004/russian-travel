@@ -10,3 +10,8 @@ width: min(100%, 1184px);
 height: calc(min(1184px,100vw)*(740/1184));
   background-size: cover;
 }
+@media (max-width:512px){
+ .cover{
+  margin: 12px 0 28px;
+} 
+}
